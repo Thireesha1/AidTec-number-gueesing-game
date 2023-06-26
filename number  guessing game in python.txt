@@ -1,0 +1,45 @@
+import random
+
+def play game!)
+
+:
+
+number randos.randint(1, 100) Generate a sandas aber between
+
+attempts=0
+
+print("Welcome to the Number Guessing Game!" print("I'm thinking of a number between 1 and 100.")
+
+while True:
+
+guess = int(input("Take a guess: "))
+
+attempts 1
+
+if guess number:
+
+print("Too low!")
+
+elif guess > number:
+
+print("Too high!")
+
+else:
+
+print("Congratulations! You found the number in (attempts) a
+
+break
+
+1
+
+play_again = input("Do you want to play again? (yes/no): ")
+
+if play again. lower()== "yes":
+
+else:
+
+play game()
+
+print("Thank you for playing!)
+
+play.game()
